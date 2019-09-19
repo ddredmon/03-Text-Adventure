@@ -1,0 +1,298 @@
+{
+    "verbs": [
+      {
+        "v": "EXITS",
+        "map": "EXITS"
+      },
+      {
+        "v": "QUIT",
+        "map": "QUIT"
+      },
+      {
+        "v": "NORTH",
+        "map": "NORTH"
+      },
+      {
+        "v": "N",
+        "map": "NORTH"
+      },
+      {
+        "v": "SOUTH",
+        "map": "SOUTH"
+      },
+      {
+        "v": "S",
+        "map": "SOUTH"
+      },
+      {
+        "v": "EAST",
+        "map": "EAST"
+      },
+      {
+        "v": "E",
+        "map": "EAST"
+      },
+      {
+        "v": "WEST",
+        "map": "WEST"
+      },
+      {
+        "v": "W",
+        "map": "WEST"
+      },
+      {
+        "v": "DIE",
+        "map": "DIE"
+      }
+    ],
+    "rooms": {
+      "START": {
+        "name": "Steamworks",
+        "desc": "You are bombarded with the smell of copper and the sound of grinding gears. \r\nThe air is thick with condensation, and you see dozens of pipes, steam tanks,\r\nand countless cogs grinding away to their own rhythm.\r\nTo the North, a staircase leads down.\r\nTo the West, the rows of pipes open up into a narrow pathway.\r\nTo the East, a solid metal door sits on rusted hinges.\r\nTo the South, a broken steam tank the size of a small shack has a gaping hole in its side. ",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "LOC2",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "LOC5",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "LOC3",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "LOC4",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC2": {
+        "name": "Test Chamber",
+        "desc": "You stand in the middle of a large empty chamber with metallic grates in the floor.\r\nThere are multiple scorch marks on the walls, and the floor is dented and gouged in places.\r\nTo the North, a large vaulted door sits below a rusted sign bearing the image of a skull.\r\nTo the West, a twisting hallway flickers with distant illumination.\r\nTo the East, a ramp curves slightly downward towards a copper door.\r\nTo the South, a staircase leads upwards into darkness. ",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "LOC8",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "START",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "LOC6",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "LOC7",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC3": {
+        "name": "Pipes",
+        "desc": "You stand in a cramped room full of pipes and valves. The groans and rattles eminating from them sound eerily alive.\r\nTo the North, a tunnel barren of pipes leads to an illuminated doorway.\r\nTo the East, a narrow walkway heads in the direction of several loud noises.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "LOC6",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "START",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC4": {
+        "name": "Old Workshop",
+        "desc": "The door swings open with an angry groan, and you enter a room lined with cobwebs.\r\nYellowed diagrams and schematics are scattered about the floor, and a dust-covered workbench has several rusted, soulless-looking metal animal figures on it.\r\nThis room has clearly been long-forgotten.\r\nThe only exit you see is the Western door you came through. ",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "START",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "NoExit",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC5": {
+        "name": "Broken Tank",
+        "desc": "You step inside the tank. Broken restraints hang from the ceiling, and several cords originating from the walls of the tank are piled on the floor.\r\nIt all feels oddly familiar to you.\r\nThe only exit is the hole at the North end of the chamber.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "START",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "NoExit",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC6": {
+        "name": "Workshop",
+        "desc": "You stand in a well-lit room that smells heavily of motor oil.\r\nFreshly drawn schematics are organized neatly on a silver workbench.\r\nCountless metal contraptions are mounted to the walls,\r\nranging from wind-up machines to anamatronic limbs that seem incredibly lifelike.\r\nTo the North, a staircase winds upward.\r\nTo the East, a network of hallways trails out of sight.\r\nTo the South, a narrow tunnel leads a chamber full of pipes. ",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "LOC9",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "LOC3",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "LOC2",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC7": {
+        "name": "Storage",
+        "desc": "You enter a stuffy metal closet. Dozens of broken, discarded machines are stacked or suspended around the room. Some appear vaguely lifelike.\r\nThe only exit is the Western door.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "LOC2",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "NoExit",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC8": {
+        "name": "Endless Sands",
+        "desc": "You stare out into a vast expanse of rust-colored sand. The door slams shut and locks behind you.\r\nYou stare down at your hands, and notice the lifelike paint beginning to chip as you quickly start to rust.\r\nYou will not survive out here, but there is no going back now. Your only option is to Die and start over. Maybe the next You will be more lifelike.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "DIE",
+            "target": "START",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC9": {
+        "name": "Clocktower",
+        "desc": "You stand within the face of an immense clock. Gears turn all around you, but no sounds are being made. It is utterly silent.\r\nThe minute hand of the clock is missing, and the hour hand is stopped at twelve. As you peer through the fogged glass of the clockface, you barely make out a figure lying on the ground far below.\r\nIt appears to be surrounded by a pool of blood. Or is it oil?\r\nThe only exit is the South staircase. ",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "LOC6",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "NoExit",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      }
+    }
+  }
