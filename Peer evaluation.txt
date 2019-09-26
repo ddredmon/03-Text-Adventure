@@ -1,0 +1,40 @@
+Name: Ethan Yee
+Date: 9-26-19
+Project: EO3b- Text Adventure
+Peer's repository: https://github.com/ddredmon/03-Text-adventure
+
+
+
+What is something you learned by reviewing your peer's project?
+
+	I thought it was really clever that when they had a long print function, they utilized /r/n to return a line down so the format of the text was easier to read. I wasn't aware you could do that, but now I'll definitely be using this technique in my projects
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+
+	Aside from the line formatting, I really appreciated that after each room description he gave me my options of where I can go next with a description of that location as well. 
+
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+	I actually really enjoyed the world that Dylan created here, and it seems to me that his coding capabilites that he displayed here is slightly beyond what I was capable of when we created these. But if I were to make any suggestions, perhaps creating an ending where the character survives and allows you to win the game.  
+
+What could have been clearer or better commented?
+	While this isn't necessary, perhaps a description as to why your character is in this particular situation at the beginning of the game. But the game is totally functional and clear even without that. 
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+
+	Nothing was inherently confusing to me. Dylan's code was pretty straightforward and gave you a clear list of choices of where your character can go. 
+
+Does the repository contain an appropriate LICENSE?
+
+ Yes
+
+What is something he/she could add to the README.md to make it more descriptive?
+	He could probably talk more about what he changed in the code to make it a functional game, or perhaps what he learned from his experience of making this game. 
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+
+	Hey Dylan, I really appreciate the depth of narrative you put into this game. It seems like quite a bit of thought went into it and it was a very enjoyable experience. 
