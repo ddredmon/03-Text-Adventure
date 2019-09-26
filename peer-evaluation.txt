@@ -1,0 +1,42 @@
+Name: Christopher Butcher
+Date: September 26th, 2019
+Project: 03-Text-adventure
+Peer's repository: https://github.com/ddredmon/03-Text-adventure
+
+
+
+What is something you learned by reviewing your peer's project?
+    Being able to restart the game after a game over.
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+    Honestly I really enjoyed the varied descriptions of the rooms. Also the
+    restart function / "death-loop."
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+    Code is good, but I would take out the moves & points system since
+    it was not implemented in the final product.
+ 
+
+What could have been clearer or better commented?
+    How to gain points and/or "complete" the game (unless dying and trying again is the point,
+    which is fine).
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+    No, the code is pretty clean.
+ 
+
+Does the repository contain an appropriate LICENSE?
+    YES
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+    Background on the world? Just a thought. Or perhaps what it is you are trying to accomplish
+    (they did this by saying it is a death-loop, meaning the ending is to die upon escape)
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+    Code is very clean! I actaully really enjoyed the descriptions of the rooms, and
+    honestly would love to see a longer version (perhaps with a good ending??).
